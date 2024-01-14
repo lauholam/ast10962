@@ -6,7 +6,7 @@ $(document).ready(function() {
   var $pics = ['bg0.jpg', 'bg1.jpg', 'bg2.jpg', 'bg3.jpg'];
   $(document).keydown(function() {
     var $key = event.which;
-	$('#content').text($key);
+	$('#content').text()=$key;
     //check point 3: complete the logic with if-else or switch
 	
     var $imageUrl = 'images/' + $pics[$index];
